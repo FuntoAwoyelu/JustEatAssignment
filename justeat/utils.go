@@ -39,7 +39,7 @@ func DisplayRestaurants(restaurants []Restaurant) {
 		fmt.Printf("Restaurant Address: %s, %s, %s\n", v.Address.Firstline, v.Address.City, v.Address.PostalCode)
 		fmt.Printf("Restaurant Cuisines: %s\n", FormatCuisines(v.Cuisine))
 		fmt.Printf("Restaurant Rating: %.1f\n", v.Rating.StarRating)
-		fmt.Println("--------------------------------------")
+		fmt.Println("-----------------------------------------------------------------")
 	}
 }
 func FormatCuisines(cuisines []Cuisine) string {
@@ -49,4 +49,3 @@ func FormatCuisines(cuisines []Cuisine) string {
 	}
 	return strings.Join(listCuisines, ", ")
 }
-

@@ -17,7 +17,3 @@ func main() {
 	// Display first 10 resturants
 	justeat.DisplayRestaurants(restaurants)
 }
-
-
-
-
